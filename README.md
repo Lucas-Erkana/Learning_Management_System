@@ -8,7 +8,7 @@ This project is about a .....................................
 
 <div align="center">
 
-<img src="/images/Oaisis.gif" alt="logo" width="140" height="auto" /> <!---Organization logo-->
+<img src="/images/Oasis.gif" alt="logo" width="140" height="auto" /> <!---Organization logo-->
 
   <br/>
 
