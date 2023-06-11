@@ -1,18 +1,18 @@
-# Project Name <!---Title of Project-->
+# Othithiya Training Institute <!---Title of Project-->
 <a name="readme-top"></a>
 
 
-## Project Name <!---Title of Project-->
+## Othithiya Training Institute <!---Title of Project-->
 
 This project is about a .....................................
 
 
 <div align="center">
 
-  <img src="/images/murple_logo.png" alt="logo" width="140"  height="auto" /> <!---Organization logo-->
+  <img src="/images/Othithiya.png" alt="logo" width="140"  height="auto" /> <!---Organization logo-->
   <br/>
 
-  <h3><b>Microverse</b></h3>
+  <h3><b>Othithiya Training Institute</b></h3>
 
 </div>
 
