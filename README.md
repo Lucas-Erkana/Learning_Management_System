@@ -1,19 +1,18 @@
-# Othithiya Training Institute <!---Title of Project-->
+# Oaisis Academy <!---Title of Project-->
 <a name="readme-top"></a>
 
 
-## Othithiya Training Institute <!---Title of Project-->
 
 This project is about a .....................................
 
 
 <div align="center">
 
-![Uploading Oasis.gif…]()
+<img src="/images/Oaisis.gif" alt="logo" width="140" height="auto" /> <!---Organization logo-->
 
   <br/>
 
-  <h3><b>Othithiya Training Institute</b></h3>
+  <h3><b>Oasis Academy</b></h3>
 
 </div>
 
