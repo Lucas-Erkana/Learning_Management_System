@@ -9,7 +9,8 @@ This project is about a .....................................
 
 <div align="center">
 
-  <img src="/images/Othithiya.png" alt="logo" width="140"  height="auto" /> <!---Organization logo-->
+![Uploading Oasis.gif…]()
+
   <br/>
 
   <h3><b>Othithiya Training Institute</b></h3>
