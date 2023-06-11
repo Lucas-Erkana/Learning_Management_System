@@ -3,26 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <title>Oasis Academy</title>
-  <!-- Include CSS stylesheets and Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Toggle the mobile menu
+      $('.navbar-toggler').click(function () {
+        $('.navbar-collapse').toggleClass('show');
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
-    <!-- Add the header content, including the company name and contact details -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Oasis.gif" alt="Oasis Academy Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cost.html">Cost</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portal.html">Portal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <main>
-    <section id="registration">
-      <!-- Add the registration form with different options for school types -->
+    <section id="home">
+      <h1>Welcome to Oasis Academy</h1>
+      <p>Oasis Academy is a learning management system that provides 
+        personalized learning experiences for students of all ages. 
+        Our responsive website and software are easy to use and navigate,
+         making it more likely that users will return and use our services 
+         again. We offer a variety of features that allow users to customize 
+         their learning experience, including personalized learning dashboards,
+          forums or discussion boards, chat features, libraries of resources, 
+          and mobile apps. We believe that by providing personalized learning 
+        experiences and opportunities for collaboration, we can help our users
+        to succeed.</p>
     </section>
   </main>
 
   <footer>
-    <!-- Add the footer content -->
+    <p>&copy; 2023 Oasis Academy. All rights reserved.</p>
   </footer>
-
-  <!-- Include JavaScript libraries if needed -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>

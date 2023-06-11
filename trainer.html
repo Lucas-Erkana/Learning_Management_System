@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer - Oasis Academy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Oasis.gif" alt="Oasis Academy Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cost.html">Cost</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portal.html">Portal</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="https://randomuser.me/api/portraits/thumb/men/2.jpg" alt="User Avatar" class="user-avatar">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="portal.html">Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="trainer-profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Trainer Profile</h2>
+            <img src="https://randomuser.me/api/portraits/thumb/men/2.jpg" alt="Trainer Photo" class="trainer-photo">
+            <p><strong>Name:</strong> Lucas Erkana</p>
+            <p><strong>Contact Information:</strong> Email: lucas@example.com | Phone: +123456789</p>
+            <p><strong>Bio:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae enim lectus. Fusce hendrerit nunc id mauris posuere, at fermentum metus efficitur.</p>
+          </div>
+          <div class="col-lg-8">
+            <h2>Courses</h2>
+            <ul>
+              <li>Course 1</li>
+              <li>Course 2</li>
+              <li>Course 3</li>
+            </ul>
+
+            <h2>Schedule</h2>
+            <p>Office Hours: Monday to Friday, 9am to 12pm</p>
+            <p>Tutoring: By appointment only</p>
+
+            <h2>Resources</h2>
+            <ul>
+              <li><a href="#">Textbook 1</a></li>
+              <li><a href="#">Article 1</a></li>
+              <li><a href="#">Website 1</a></li>
+            </ul>
+
+            <h2>Feedback</h2>
+            <p>Provide your feedback and suggestions to improve the learning experience.</p>
+            <form>
+              <textarea name="feedback" rows="4" placeholder="Enter your feedback"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Oasis Academy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
